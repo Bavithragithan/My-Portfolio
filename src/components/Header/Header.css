@@ -1,0 +1,78 @@
+#header {
+    overflow: hidden;
+    position: relative;
+}
+
+#header .breath_circle {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+#header .grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    gap: 1rem;
+    z-index: 2;
+}
+
+#header .grid.upper {
+    grid-template-columns: auto 400px;
+}
+
+#header .description {
+    margin-bottom: 10px;
+}
+
+#header .social__handles__container {
+    margin-top: 10px;
+}
+
+#header .profile__photo {
+    object-fit: contain;
+    filter: grayscale(100%);
+    margin-top: 0px;
+    max-width: 700px;
+    height: auto;
+    margin-top: 100px;
+    border-radius: 20%;
+}
+
+#header .grid.upper .left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#header .grid.upper .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Responsiveness */
+@media (max-width:768px){
+    #header .grid,
+    #header .grid.upper{
+        grid-template-columns: 100%;
+    }
+    #header .grid.upper .column:first-child{
+        height: 200px;
+    }
+    #header .description{
+        text-align: center;
+    }
+    #header .social__handles__container{
+        justify-content: center;
+    }
+    #header .grid.upper .left, 
+    #header .grid.upper .right {
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    #header .profile__photo {
+        max-width: 400px;
+    }
+}
