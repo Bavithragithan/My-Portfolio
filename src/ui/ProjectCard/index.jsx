@@ -1,6 +1,6 @@
 import "./ProjectCard.css"
 
-const ProjectCard = ({title,category,image,description,stacks}) => {
+const ProjectCard = ({title,category,image,description,stacks,demoLink}) => {
   return (
     <div className="card project__card">
         <div className="project__card-top">
@@ -14,7 +14,7 @@ const ProjectCard = ({title,category,image,description,stacks}) => {
                     <img src={image} alt="" />
                 </div>
                 <div>
-                    <h3 className="title">{title}</h3>
+                    <a href={demoLink} className="title" target="_blank">{title}</a>
                     <p className="text__muted category">{category}</p>
                 </div>
             </div>

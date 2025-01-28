@@ -11,7 +11,7 @@ const Facts = () => {
         const timeoutId = setTimeout(()=>{
             setExperience(0);
             setProjects(8);
-            setClients(1);
+            setClients(0);
         },3000)
 
         return () => clearTimeout(timeoutId);

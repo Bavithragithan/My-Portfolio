@@ -52,7 +52,7 @@ export const projects = [
     category: "Backend Development",
     description: `A digital solution for automating billing processes, including book inventory management, customer purchases, 
                   and receipt generation for streamlined operations.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://github.com/Bavithragithan/Royal-Book-Shop-Billing-System",
     stacks: [
       {
         name: "Java",
@@ -66,7 +66,7 @@ export const projects = [
     category: "Backend Development",
     description: `A C# application with a database backend to manage student records, including registration, 
     attendance, grades, and personal details.`,
-    demoLink: "https://google.com/",
+    demoLink: "Student Management System Report.pdf",
     stacks: [
       {
         name: "C#",
@@ -83,7 +83,7 @@ export const projects = [
     image: project3,
     category: "Internet Of Things",
     description: `An automated system using IoT to monitor water levels, detect quality, and control pumps efficiently while providing real-time updates via connected devices.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://github.com/Bavithragithan/Smart-Water-Tank-System",
     stacks: [
       {
         name: "Arduino",
@@ -96,7 +96,7 @@ export const projects = [
     image: project4,
     category: "Frontend Development",
     description: `A user-friendly platform showcasing tourist attractions, travel packages, and booking options, promoting seamless exploration of Sri Lanka.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://github.com/Bavithragithan/Tourism-Website",
     stacks: [
       {
         name: "Html",
@@ -117,7 +117,7 @@ export const projects = [
     image: project5,
     category: "UI/UX",
     description: `A mobile app interface for ordering coffee, browsing menus, and tracking loyalty rewards, enhancing customer convenience and engagement.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://www.figma.com/design/U9d86eNf08xFLSzP4d7ars/Coffee-Shop-Design-Prototype-Bavi?node-id=0-1&t=9ZYcxN1Uf7eCnKLo-1",
     stacks: [
       {
         name: "Figma",
@@ -130,7 +130,7 @@ export const projects = [
     image: project6,
     category: "Backend development",
     description: `A desktop-based system for managing clinic schedules, patient appointments, and doctor availability for smoother healthcare operations.`,
-    demoLink: "https://google.com/",
+    demoLink: "https://github.com/Bavithragithan/Clinic-Booking-system",
     stacks: [
       {
         name: "Java",

@@ -21,8 +21,6 @@ const code = `const developer = {
 const Header = () => {
   return (
     <header id='header'>
-      {/* <HeaderTitle /> */}
-      {/* <BreathCircle /> */}
         <div className="section_wrapper">
           <div className="grid upper">
           <div className="column left">
