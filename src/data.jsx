@@ -45,28 +45,26 @@ export const projects = [
     title: "Billing System for Royal Book Shop",
     image: project1,
     category: "Backend Development",
-    description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                     learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
-                     and intuitive navigation, our design empowers educators and students alike. Experience 
-                     innovation at its finest as we pave the way for a smarter, more efficient educational 
-                     journey.`,
+    description: `A digital solution for automating billing processes, including book inventory management, customer purchases, 
+                  and receipt generation for streamlined operations.`,
     demoLink: "https://google.com/",
     stacks: [
       {
-        name: "XD",
+        name: "Java",
         logo: xd,
+      },
+      {
+        name: "JavaScript",
+        logo: javascript,
       },
     ],
   },
   {
-    title: "E-Commerce Application",
+    title: "Student Management System with DB in C#",
     image: project2,
-    category: "Web",
-    description: `Enhance your online shopping experience with our E-Commerce Application 
-      UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
-      interface offers easy navigation, personalized recommendations, and secure 
-      transactions. Elevate your digital storefront and captivate customers with a visually 
-      stunning design tailored to your brand`,
+    category: "Backend Development",
+    description: `A C# application with a database backend to manage student records, including registration, 
+    attendance, grades, and personal details.`,
     demoLink: "https://google.com/",
     stacks: [
       {
@@ -88,14 +86,10 @@ export const projects = [
     ],
   },
   {
-    title: "Robotic Engineering Web Application",
+    title: "IOT based Smart Water Tank System",
     image: project3,
-    category: "Web",
-    description: `Unlock the future of robotics with our Robotic Engineering Web Application
-      project. Seamlessly integrating cutting-edge technology, data analytics, 
-      and collaborative tools, our platform empowers engineers to design, simulate, 
-      and optimize robotic systems. Experience innovation at its peak as we redefine the 
-      boundaries of robotic engineering.`,
+    category: "Internet Of Things",
+    description: `An automated system using IoT to monitor water levels, detect quality, and control pumps efficiently while providing real-time updates via connected devices.`,
     demoLink: "https://google.com/",
     stacks: [
       {
@@ -113,11 +107,10 @@ export const projects = [
     ],
   },
   {
-    title: "Project Management application",
+    title: "Around Lanka Tourism Website",
     image: project4,
-    category: "Apps",
-    description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
-                     Elevate your project management experience and achieve success with ease.`,
+    category: "Frontend Development",
+    description: `A user-friendly platform showcasing tourist attractions, travel packages, and booking options, promoting seamless exploration of Sri Lanka.`,
     demoLink: "https://google.com/",
     stacks: [
       {
@@ -135,10 +128,10 @@ export const projects = [
     ],
   },
   {
-    title: "Mobile bank - App Design",
+    title: "Coffee Shop - Mobile App Design",
     image: project5,
     category: "UI/UX",
-    description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
+    description: `A mobile app interface for ordering coffee, browsing menus, and tracking loyalty rewards, enhancing customer convenience and engagement.`,
     demoLink: "https://google.com/",
     stacks: [
       {
@@ -148,15 +141,10 @@ export const projects = [
     ],
   },
   {
-    title: "Quiz App Development",
+    title: "Clinic Appointment Console System",
     image: project6,
-    category: "Apps",
-    description: `Elevate engagement and knowledge retention with our Quiz App 
-                    Development project. Seamlessly crafted for interactive learning 
-                    experiences, our app offers customizable quizzes, real-time feedback, 
-                    and captivating visuals. Empower users to test their knowledge anytime,
-                     anywhere, fostering a dynamic learning environment tailored to their 
-                     needs.`,
+    category: "Backend development",
+    description: `A desktop-based system for managing clinic schedules, patient appointments, and doctor availability for smoother healthcare operations.`,
     demoLink: "https://google.com/",
     stacks: [
       {
