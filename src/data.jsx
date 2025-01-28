@@ -30,6 +30,11 @@ import {
   emailicon,
   messengericon,
   whatsappicon,
+  java,
+  csharp,
+  dbms,
+  arduino,
+  python,
 } from "./assets";
 
 export const menu = [
@@ -51,11 +56,7 @@ export const projects = [
     stacks: [
       {
         name: "Java",
-        logo: xd,
-      },
-      {
-        name: "JavaScript",
-        logo: javascript,
+        logo: java,
       },
     ],
   },
@@ -68,20 +69,12 @@ export const projects = [
     demoLink: "https://google.com/",
     stacks: [
       {
-        name: "ReactJs",
-        logo: react,
+        name: "C#",
+        logo: csharp,
       },
       {
-        name: "XD",
-        logo: xd,
-      },
-      {
-        name: "CSS",
-        logo: css,
-      },
-      {
-        name: "JavaScript",
-        logo: javascript,
+        name: "DBMS",
+        logo: dbms,
       },
     ],
   },
@@ -93,16 +86,8 @@ export const projects = [
     demoLink: "https://google.com/",
     stacks: [
       {
-        name: "ReactJs",
-        logo: react,
-      },
-      {
-        name: "Figma",
-        logo: figma,
-      },
-      {
-        name: "Tailwind",
-        logo: tailwind,
+        name: "Arduino",
+        logo: arduino,
       },
     ],
   },
@@ -114,16 +99,16 @@ export const projects = [
     demoLink: "https://google.com/",
     stacks: [
       {
-        name: "React Native",
-        logo: reactnative,
+        name: "Html",
+        logo: html,
       },
       {
-        name: "XD",
-        logo: xd,
-      },
-      {
-        name: "CSS",
+        name: "Css",
         logo: css,
+      },
+      {
+        name: "Javascript",
+        logo: javascript,
       },
     ],
   },
@@ -148,20 +133,8 @@ export const projects = [
     demoLink: "https://google.com/",
     stacks: [
       {
-        name: "React Native",
-        logo: reactnative,
-      },
-      {
-        name: "Figma",
-        logo: figma,
-      },
-      {
-        name: "XD",
-        logo: xd,
-      },
-      {
-        name: "Bootstrap",
-        logo: bootstrap,
+        name: "Java",
+        logo: java,
       },
     ],
   },
@@ -173,18 +146,8 @@ export const skills = [
     data: [
       {
         skill: "Figma",
-        level: "Experienced",
+        level: "Intermediate",
         logo: figma,
-      },
-      {
-        skill: "Sketch",
-        level: "Intermediate",
-        logo: sketch,
-      },
-      {
-        skill: "XD",
-        level: "Intermediate",
-        logo: xd,
       },
     ],
   },
@@ -193,23 +156,28 @@ export const skills = [
     data: [
       {
         skill: "HTML",
-        level: "Experienced",
+        level: "Intermediate",
         logo: html,
       },
       {
         skill: "CSS",
-        level: "Experienced",
+        level: "Intermediate",
         logo: css,
       },
       {
         skill: "JavaScript",
-        level: "Experienced",
+        level: "Intermediate",
         logo: javascript,
       },
       {
         skill: "React",
-        level: "Experienced",
+        level: "Beginner",
         logo: react,
+      },
+      {
+        skill: "Bootstrap",
+        level: "Beginner",
+        logo: bootstrap,
       },
     ],
   },
@@ -217,19 +185,19 @@ export const skills = [
     title: "Backend Development",
     data: [
       {
-        skill: "Bootstrap",
-        level: "Experienced",
-        logo: bootstrap,
+        skill: "Java",
+        level: "Advanced",
+        logo: java,
       },
       {
-        skill: "React",
-        level: "Experienced",
-        logo: react,
+        skill: "C#",
+        level: "Advanced",
+        logo: csharp,
       },
       {
-        skill: "React Native",
-        level: "Experienced",
-        logo: reactnative,
+        skill: "Python",
+        level: "Advanced",
+        logo: python,
       },
     ],
   },
@@ -237,15 +205,15 @@ export const skills = [
 export const contactInfo = [
   {
     name: "Email",
-    value: "mradinuba@gmail.com",
-    link: "mailto:mradinuba@gmail.com",
+    value: "skbavi61@gmail.com",
+    link: "mailto:skbavi61@gmail.com",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
   },
   {
     name: "Messenger",
-    value: "Emmanuel Eze",
+    value: "Sk Bavi",
     link: "http://m.me/profile?id=profile-i",
     icon: messengericon,
     btnIcon: <RiMessengerLine />,
@@ -253,8 +221,8 @@ export const contactInfo = [
   },
   {
     name: "WhatsApp",
-    value: "+2348149121918",
-    link: "https://api.whatsapp.com/send?phone=+2348149121918",
+    value: "+94756089312",
+    link: "https://api.whatsapp.com/send?phone=+94756089312",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: "rgb(38,234,112)",
@@ -262,54 +230,41 @@ export const contactInfo = [
 ];
 export const socialHandles = [
   {
-    name: "Fiverr",
-    icon: <SiFiverr />,
-    link: "",
-  },
-  {
     name: "Github",
     icon: <AiFillGithub />,
-    link: "",
+    link: "https://github.com/Bavithragithan",
   },
   {
     name: "LinkedIn",
     icon: <AiFillLinkedin />,
-    link: "",
+    link: "https://www.linkedin.com/in/kuganesan-bavithragithan-931917269/",
   },
   {
     name: "Youtube",
     icon: <AiFillYoutube />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    link: "https://www.youtube.com/@skbavi18",
   },
 ];
 
 export const testimonials = [
   {
     avatar: profile3,
-    name: "Samuel Eze",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
+    name: "Thuvaragan Sritharan",
+    review: ` Bavi is a highly skilled and dedicated developer. Their expertise in front-end technologies like HTML, CSS, and React helped us create a user-friendly and responsive platform. They were professional and detail-oriented throughout the project.`,
   },
   {
     avatar: profile4,
-    name: "Emmanuel Joseph",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
+    name: "Nivethanan Sivagnanasuntharam",
+    review: ` Working with Bavi was a fantastic experience. They have an excellent eye for design and functionality, which made our website not only look great but perform seamlessly. Their ability to quickly adapt and solve complex issues was impressive.`,
   },
   {
     avatar: profile5,
-    name: "Gloria Chiwendu",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
+    name: "Rajeeskumar Segar",
+    review: ` Bavi consistently delivers exceptional work with a deep understanding of modern web technologies. Their problem-solving skills and dedication to meeting deadlines made a huge difference to our project’s success.`,
   },
   {
     avatar: profile6,
-    name: "Precious Stone",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
+    name: "Prusothaman MR",
+    review: ` I was impressed by Bavi’s ability to turn ideas into reality. They created a clean and dynamic interface for our application, ensuring it was scalable and efficient. Their professionalism and communication made collaboration effortless.`,
   },
 ];

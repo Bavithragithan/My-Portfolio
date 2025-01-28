@@ -1,9 +1,9 @@
 export { default as profile1 } from "./profile-1.png";
 export { default as profile2 } from "./profile-2.jpg";
-export { default as profile3 } from "./profile-3.jpeg";
-export { default as profile4 } from "./profile-4.jpeg";
-export { default as profile5 } from "./profile-5.jpeg";
-export { default as profile6 } from "./profile-6.jpeg";
+export { default as profile3 } from "./thuva.jpg";
+export { default as profile4 } from "./niven.jpg";
+export { default as profile5 } from "./rajees.jpg";
+export { default as profile6 } from "./prusoth.jpg";
 
 //Projects images export
 export { default as project1 } from "./project-1.png";
@@ -27,3 +27,8 @@ export { default as reactnative } from "./icons/reactnative.svg";
 export { default as emailicon } from "./icons/email.png";
 export { default as messengericon } from "./icons/messenger.png";
 export { default as whatsappicon } from "./icons/whatsapp.png";
+export { default as java } from "./icons/java.svg";
+export { default as csharp } from "./icons/csharp.svg";
+export { default as dbms } from "./icons/dbms.svg";
+export { default as arduino } from "./icons/arduino.svg";
+export { default as python } from "./icons/python.svg";
