@@ -215,7 +215,7 @@ export const contactInfo = [
   {
     name: "Messenger",
     value: "Sk Bavi",
-    link: "http://m.me/profile?id=profile-i",
+    link: "https://m.me/sk.bavi.79?hash=AbbkNtjdEP7F12JE&source=qr_link_share",
     icon: messengericon,
     btnIcon: <RiMessengerLine />,
     color: "rgb(139,74,251)",
@@ -223,7 +223,7 @@ export const contactInfo = [
   {
     name: "WhatsApp",
     value: "+94756089312",
-    link: "https://api.whatsapp.com/send?phone=+94756089312",
+    link: "https://wa.me/qr/Q5EN2UYO7DBBH1 ",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: "rgb(38,234,112)",
