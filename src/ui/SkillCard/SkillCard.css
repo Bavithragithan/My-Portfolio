@@ -45,12 +45,15 @@
 }
 
 /* Responsiveness */
-@media (max-width:350px) {
+@media (max-width:400px) {
     .skill__card .skill__details .skill__name {
         font-size: 12px;
+        margin-right: -15rem;
+        margin-left: -10px;
     }
 
     .skill__card .skill__details .skill__level {
         font-size: 10px;
+        margin-left: -10px;
     }
 }
