@@ -191,6 +191,9 @@ textarea:focus {
         top: 30%;
         transform: translate(-50%,-30%);
     }
+    input,textarea {
+        width: 85%;
+    }
 }
 
 @media (max-width:800px) {
@@ -211,5 +214,14 @@ textarea:focus {
 
     #contact .contact__content {
         flex-direction: column;
+    }
+    input,textarea {
+        width: 90%;
+    }
+}
+
+@media (max-width:500px) {
+    input,textarea {
+        width: 85%;
     }
 }
