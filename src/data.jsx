@@ -1,8 +1,4 @@
-import { FaPaintBrush } from "react-icons/fa";
-import { SiFiverr } from "react-icons/si";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
-import { FaCodeCompare } from "react-icons/fa6";
-import { GiIdea } from "react-icons/gi";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
@@ -18,15 +14,11 @@ import {
   profile5,
   profile6,
   figma,
-  sketch,
-  xd,
   css,
   html,
   javascript,
-  tailwind,
   bootstrap,
   react,
-  reactnative,
   emailicon,
   messengericon,
   whatsappicon,
