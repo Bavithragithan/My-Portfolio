@@ -39,11 +39,13 @@ const Contact = () => {
               </div>
               <SocialHandles />
             </div>
-            <form>
+            <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="443b821d-e9e0-40c8-b1bb-32cbdd4edf39" />
               <input type="text" placeholder="Your Fullname" name="name" required />
               <input type="text" placeholder="Your Email" name="email" required />
               <textarea name="message" rows={7} placeholder="Your Message"></textarea>
-              <button type="button" className="btn flex__center submit__btn">
+              <input type="hidden" name="redirect" value="https://web3forms.com/success"></input>
+              <button type="submit" className="btn flex__center submit__btn">
                 <div className="icon"><BsFillSendFill /></div>
                 <span>Send Now</span>
               </button>
