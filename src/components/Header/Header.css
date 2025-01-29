@@ -52,27 +52,28 @@
 }
 
 /* Responsiveness */
-@media (max-width:768px){
+@media (max-width: 768px) {
     #header .grid,
-    #header .grid.upper{
+    #header .grid.upper {
         grid-template-columns: 100%;
+        gap: 0.5rem;  
     }
-    #header .grid.upper .column:first-child{
-        height: 200px;
+    #header .grid.upper .column:first-child,
+    #header .grid.upper .column:last-child {
+        height: auto; 
+        margin-top: 0; 
     }
-    #header .description{
-        text-align: center;
-    }
-    #header .social__handles__container{
-        justify-content: center;
+    #header .profile__photo {
+        max-width: 100%; 
+        margin: 0 auto; 
     }
     #header .grid.upper .left, 
     #header .grid.upper .right {
         justify-content: center;
         align-items: center;
-        margin-top: 100px;
+        margin-top: 0;
     }
-    #header .profile__photo {
-        max-width: 400px;
+    #header .grid.upper .left {
+        padding-top: 60px; 
     }
 }

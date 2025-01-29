@@ -11,7 +11,6 @@ const Navbar = () => {
 
   return (
     <nav className="card flex__center navbar">
-
       {showSidebar && (
         <div
           className="aside__overlay"
@@ -49,11 +48,29 @@ const Navbar = () => {
               {list.name}
             </Link>
           ))}
+
+          {/* "My Resume" button only for mobile view inside the sidebar */}
+          <a
+            href="https://drive.google.com/file/d/1iczEmwHes-OjJ74cuDC_eS_AoLsGh3XF/view?usp=sharing"
+            className="btn flex__center hire__btn"
+            target="_blank"
+            onClick={() => setShowSidebar(false)}
+          >
+            My Resume
+            <div className="flex__center icon">
+              <FaArrowUpRightFromSquare />
+            </div>
+          </a>
         </div>
       </aside>
 
+      {/* "My Resume" button only for larger screens outside the sidebar */}
       <div className="flex__container buttons__wrapper">
-        <a href="https://drive.google.com/file/d/1iczEmwHes-OjJ74cuDC_eS_AoLsGh3XF/view?usp=sharing" className="btn flex__center hire__btn" target="_blank">
+        <a
+          href="https://drive.google.com/file/d/1iczEmwHes-OjJ74cuDC_eS_AoLsGh3XF/view?usp=sharing"
+          className="btn flex__center hire__btn desktop-resume"
+          target="_blank"
+        >
           My Resume
           <div className="flex__center icon">
             <FaArrowUpRightFromSquare />
