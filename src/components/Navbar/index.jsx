@@ -1,9 +1,9 @@
 import Logo from "../../assets/Logo";
 import "./Navbar.css";
 import { FaTimesCircle } from "react-icons/fa";
+import { FaArrowUpRightFromSquare, FaBarsStaggered } from "react-icons/fa6";
 import { menu } from "../../data";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { FaArrowUpRightFromSquare, FaBarsStaggered } from "react-icons/fa6";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
       <aside className={`flex__center sidebar ${showSidebar && "visible"}`}>
         <div className="flex sidebar__top">
           <span
-            className="icon__container close-btn"
+            className="icon__container close__btn"
             onClick={() => setShowSidebar(false)}
           >
             <FaTimesCircle />

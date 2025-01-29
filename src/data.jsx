@@ -202,6 +202,7 @@ export const skills = [
     ],
   },
 ];
+
 export const contactInfo = [
   {
     name: "Email",
