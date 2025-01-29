@@ -96,7 +96,7 @@ export const projects = [
     image: project4,
     category: "Frontend Development",
     description: `A user-friendly platform showcasing tourist attractions, travel packages, and booking options, promoting seamless exploration of Sri Lanka.`,
-    demoLink: "https://github.com/Bavithragithan/Tourism-Website",
+    demoLink: "https://around-lanka-tourism.netlify.app/",
     stacks: [
       {
         name: "Html",
