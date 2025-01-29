@@ -53,7 +53,7 @@ const Navbar = () => {
       </aside>
 
       <div className="flex__container buttons__wrapper">
-        <a href="Kuganesan Bavithragithan CV.pdf" className="btn flex__center hire__btn" target="_blank">
+        <a href="https://drive.google.com/file/d/1iczEmwHes-OjJ74cuDC_eS_AoLsGh3XF/view?usp=sharing" className="btn flex__center hire__btn" target="_blank">
           My Resume
           <div className="flex__center icon">
             <FaArrowUpRightFromSquare />

@@ -66,7 +66,7 @@ export const projects = [
     category: "Backend Development",
     description: `A C# application with a database backend to manage student records, including registration, 
     attendance, grades, and personal details.`,
-    demoLink: "Student Management System Report.pdf",
+    demoLink: "https://drive.google.com/file/d/1KO-IqzJpEprTP8nOryAbbkX9s1xUXooK/view?usp=sharing",
     stacks: [
       {
         name: "C#",
