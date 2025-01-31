@@ -49,9 +49,9 @@ const Navbar = () => {
             </Link>
           ))}
 
-          {/* "My Resume" button only for mobile view inside the sidebar */}
           <a
-            href="https://drive.google.com/file/d/1iczEmwHes-OjJ74cuDC_eS_AoLsGh3XF/view?usp=sharing"
+            href="my-cv.pdf"
+            download="bavithragithan-resume.pdf"
             className="btn flex__center hire__btn"
             target="_blank"
             onClick={() => setShowSidebar(false)}
@@ -64,10 +64,10 @@ const Navbar = () => {
         </div>
       </aside>
 
-      {/* "My Resume" button only for larger screens outside the sidebar */}
       <div className="flex__container buttons__wrapper">
         <a
-          href="https://drive.google.com/file/d/1iczEmwHes-OjJ74cuDC_eS_AoLsGh3XF/view?usp=sharing"
+          href="my-cv.pdf"
+          download="bavithragithan-resume.pdf"
           className="btn flex__center hire__btn desktop-resume"
           target="_blank"
         >
