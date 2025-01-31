@@ -27,6 +27,8 @@ import {
   dbms,
   arduino,
   python,
+  work,
+  school
 } from "./assets";
 
 export const menu = [
@@ -259,5 +261,48 @@ export const testimonials = [
     avatar: profile6,
     name: "Prusothaman MR",
     review: ` I was impressed by Bavi’s ability to turn ideas into reality. They created a clean and dynamic interface for our application, ensuring it was scalable and efficient. Their professionalism and communication made collaboration effortless.`,
+  },
+];
+
+export const experiences = [
+  {
+    type: "education",
+    date: "2013 Jan - 2018 Dec",
+    title: "Kokuvil Hindu College",
+    company: "",
+    description: "Grade 6 to Grade 11",
+    icon: school,
+  },
+  {
+    type: "education",
+    date: "2019 May - 2022 Feb",
+    title: "Jaffna Hindu College",
+    company: "",
+    description: "GCE A/L",
+    icon: school,
+  },
+  {
+    type: "education",
+    date: "2022 May - 2023 Apr",
+    title: "ESOFT Metro Campus",
+    company: "",
+    description: "Diploma in IT and English",
+    icon: school,
+  },
+  {
+    type: "education",
+    date: "2023 Mar - 2025 Jan",
+    title: "BCAS Campus",
+    company: "",
+    description: "Higher National Diploma in Software Engineering",
+    icon: school,
+  },
+  {
+    type: "work",
+    date: "2025 Jan - Present",
+    title: "Intern Software Engineer",
+    company: "Codearson PVT LTD",
+    description: "Working on a POS system as back-end and front-end",
+    icon: work,
   },
 ];
