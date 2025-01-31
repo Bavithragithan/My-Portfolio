@@ -3,12 +3,12 @@
     margin-top: 60px;
 }
 
-.section__wrapper {
+#experience .section__wrapper {
     padding: 60px 0;
     text-align: center;
 }
 
-.section__title {
+#experience .section__title {
     font-size: 34px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -16,7 +16,7 @@
     display: inline-block;
 }
 
-.section__title .shine {
+#experience .section__title .shine {
     background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
     background-size: 200% auto;
     -webkit-background-clip: text; 
@@ -34,7 +34,7 @@
     100% { background-position: 0% 50%; }
 }
 
-.vertical-timeline-element-content {
+#experience .vertical-timeline-element-content {
     box-shadow: var(--card-primary-shadow);
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
@@ -43,12 +43,12 @@
     border: 1px solid var(--color-primary);
 }
 
-.vertical-timeline-element-content:hover {
+#experience .vertical-timeline-element-content:hover {
     transform: scale(1.05);
     background: linear-gradient(135deg, rgba(60, 60, 60, 1), rgba(40, 40, 40, 1));
 }
 
-.timeline-header {
+#experience .timeline-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,13 +58,13 @@
     background: rgba(var(--color-primary-rgb), 0.2);
 }
 
-.timeline-header h3 {
+#experience .timeline-header h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 0;
 }
 
-.timeline-date {
+#experience .timeline-date {
     font-size: 14px;
     color: var(--color-secondary);
     font-weight: bold;
@@ -72,17 +72,17 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-    .timeline-header {
+    #experience .timeline-header {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .timeline-date {
+    #experience .timeline-date {
         margin-top: 5px;
     }
 }
 
-.icon-container {
+#experience .icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,7 +90,7 @@
     height: 100%;
 }
 
-.icon-img {
+#experience .icon-img {
     width: 80%;
     height: 80%;
     border-radius: 50%;
@@ -98,12 +98,12 @@
 }
 
 @media (max-width: 768px) {
-     .timeline-header {
+    #experience .timeline-header {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .timeline-date {
+    #experience .timeline-date {
         margin-top: 5px;
     }
 }
