@@ -34,6 +34,7 @@ import {
 export const menu = [
   { name: "About" },
   { name: "Skill" },
+  { name: "Experience" },
   { name: "Projects" },
   { name: "Testimonial" },
   { name: "Contact" },
