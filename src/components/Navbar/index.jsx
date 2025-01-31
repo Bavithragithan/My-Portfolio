@@ -50,8 +50,7 @@ const Navbar = () => {
           ))}
 
           <a
-            href="my-cv.pdf"
-            download="bavithragithan-resume.pdf"
+            href="https://drive.google.com/file/d/1yRLpiqJFNT86ZPhXTdf3OcsB6GjlM2cO/view?usp=sharing"
             className="btn flex__center hire__btn"
             target="_blank"
             onClick={() => setShowSidebar(false)}
@@ -66,8 +65,7 @@ const Navbar = () => {
 
       <div className="flex__container buttons__wrapper">
         <a
-          href="my-cv.pdf"
-          download="bavithragithan-resume.pdf"
+          href="https://drive.google.com/file/d/1yRLpiqJFNT86ZPhXTdf3OcsB6GjlM2cO/view?usp=sharing"
           className="btn flex__center hire__btn desktop-resume"
           target="_blank"
         >
