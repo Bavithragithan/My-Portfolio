@@ -9,6 +9,7 @@ import {
   project4,
   project5,
   project6,
+  project7,
   profile3,
   profile4,
   profile5,
@@ -47,7 +48,8 @@ export const projects = [
     category: "Backend Development",
     description: `A digital solution for automating billing processes, including book inventory management, customer purchases, 
                   and receipt generation for streamlined operations.`,
-    demoLink: "https://github.com/Bavithragithan/Royal-Book-Shop-Billing-System",
+    source: "https://github.com/Bavithragithan/Royal-Book-Shop-Billing-System",
+    liveDemo: "https://drive.google.com/drive/folders/1KZZO1yFh4-pgN0glXS8x2zyHvp7mJ5Kd?usp=sharing",
     stacks: [
       {
         name: "Java",
@@ -61,7 +63,8 @@ export const projects = [
     category: "Backend Development",
     description: `A C# application with a database backend to manage student records, including registration, 
     attendance, grades, and personal details.`,
-    demoLink: "https://drive.google.com/file/d/1KO-IqzJpEprTP8nOryAbbkX9s1xUXooK/view?usp=sharing",
+    source: "https://drive.google.com/file/d/1KO-IqzJpEprTP8nOryAbbkX9s1xUXooK/view?usp=sharing",
+    liveDemo: "",
     stacks: [
       {
         name: "C#",
@@ -78,7 +81,8 @@ export const projects = [
     image: project3,
     category: "Internet Of Things",
     description: `An automated system using IoT to monitor water levels, detect quality, and control pumps efficiently while providing real-time updates via connected devices.`,
-    demoLink: "https://github.com/Bavithragithan/Smart-Water-Tank-System",
+    source: "https://github.com/Bavithragithan/Smart-Water-Tank-System",
+    liveDemo: "",
     stacks: [
       {
         name: "Arduino",
@@ -91,7 +95,8 @@ export const projects = [
     image: project4,
     category: "Frontend Development",
     description: `A user-friendly platform showcasing tourist attractions, travel packages, and booking options, promoting seamless exploration of Sri Lanka.`,
-    demoLink: "https://around-lanka-tourism.netlify.app/",
+    source: "https://github.com/Bavithragithan/Tourism-Website",
+    liveDemo: "https://around-lanka-tourism.netlify.app/",
     stacks: [
       {
         name: "Html",
@@ -112,7 +117,8 @@ export const projects = [
     image: project5,
     category: "UI/UX",
     description: `A mobile app interface for ordering coffee, browsing menus, and tracking loyalty rewards, enhancing customer convenience and engagement.`,
-    demoLink: "https://www.figma.com/design/U9d86eNf08xFLSzP4d7ars/Coffee-Shop-Design-Prototype-Bavi?node-id=0-1&t=9ZYcxN1Uf7eCnKLo-1",
+    source: "https://www.figma.com/design/U9d86eNf08xFLSzP4d7ars/Coffee-Shop-Design-Prototype-Bavi?node-id=0-1&t=9ZYcxN1Uf7eCnKLo-1",
+    liveDemo: "https://www.figma.com/proto/U9d86eNf08xFLSzP4d7ars/Coffee-Shop-Design-Prototype-Bavi?node-id=1-832&p=f&t=Zjcq2K8Ae9MbkkHN-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A832",
     stacks: [
       {
         name: "Figma",
@@ -125,11 +131,38 @@ export const projects = [
     image: project6,
     category: "Backend development",
     description: `A desktop-based system for managing clinic schedules, patient appointments, and doctor availability for smoother healthcare operations.`,
-    demoLink: "https://github.com/Bavithragithan/Clinic-Booking-system",
+    source: "https://github.com/Bavithragithan/Clinic-Booking-system",
+    liveDemo: "https://drive.google.com/drive/folders/1_YR5tIzaKLzvMck5H9Ry0vocKGbuy7GF?usp=sharing",
     stacks: [
       {
         name: "Java",
         logo: java,
+      },
+    ],
+  },
+  {
+    title: "Grocery Store Website",
+    image: project7,
+    category: "Frontend development",
+    description: `A desktop-based system for managing clinic schedules, patient appointments, and doctor availability for smoother healthcare operations.`,
+    source: "https://github.com/Bavithragithan/Clinic-Booking-system",
+    liveDemo: "https://grocery-store-app-web.netlify.app/",
+    stacks: [
+      {
+        name: "Html",
+        logo: html,
+      },
+      {
+        name: "Css",
+        logo: css,
+      },
+      {
+        name: "React",
+        logo: react,
+      },
+      {
+        name: "Bootstrap",
+        logo: bootstrap,
       },
     ],
   },

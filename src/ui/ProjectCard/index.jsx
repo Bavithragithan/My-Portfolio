@@ -1,6 +1,6 @@
 import "./ProjectCard.css"
 
-const ProjectCard = ({title,category,image,description,stacks,demoLink}) => {
+const ProjectCard = ({title, category, image, description, stacks, source, liveDemo}) => {
   return (
     <div className="card project__card">
         <div className="project__card-top">
@@ -14,21 +14,33 @@ const ProjectCard = ({title,category,image,description,stacks,demoLink}) => {
                     <img src={image} alt="" />
                 </div>
                 <div>
-                    <a href={demoLink} className="title" target="_blank">{title}</a>
+                    <h3 className="title">{title}</h3>
                     <p className="text__muted category">{category}</p>
                 </div>
             </div>
             <p className="text__muted description">{description}</p>
-            <div className=" flex__center stacks">
-                {stacks.map((stack,index)=>(
+            <div className="flex__center stacks">
+                {stacks.map((stack, index) => (
                     <div className="stack" key={index}>
-                        <img src={stack.logo} alt="" />
+                        <img src={stack.logo} alt={stack.name} />
                     </div>
                 ))}
             </div>
+
+            {source && source !== "" && (
+                <a href={source} className="btn demo__btn" target="_blank" rel="noopener noreferrer">
+                    Source Code
+                </a>
+            )}
+
+            {liveDemo && liveDemo !== "" && (
+                <a href={liveDemo} className="btn demo__btn" target="_blank" rel="noopener noreferrer">
+                    Live Demo
+                </a>
+            )}
         </div>
     </div>
   )
 }
 
-export default ProjectCard
+export default ProjectCard;
