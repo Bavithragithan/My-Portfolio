@@ -10,6 +10,7 @@ import {
   project5,
   project6,
   project7,
+  project8,
   profile3,
   profile4,
   profile5,
@@ -147,6 +148,32 @@ export const projects = [
     description: `A desktop-based system for managing clinic schedules, patient appointments, and doctor availability for smoother healthcare operations.`,
     source: "https://github.com/Bavithragithan/Clinic-Booking-system",
     liveDemo: "https://grocery-store-app-web.netlify.app/",
+    stacks: [
+      {
+        name: "Html",
+        logo: html,
+      },
+      {
+        name: "Css",
+        logo: css,
+      },
+      {
+        name: "React",
+        logo: react,
+      },
+      {
+        name: "Bootstrap",
+        logo: bootstrap,
+      },
+    ],
+  },
+  {
+    title: "Food Recipe Website",
+    image: project8,
+    category: "Frontend development",
+    description: `Fork it Over is a user-friendly food recipe app that lets you search for delicious meals instantly. Explore diverse recipes, get detailed instructions, and cook like a pro with ease!`,
+    source: "https://github.com/Bavithragithan/Food-Recipe",
+    liveDemo: "https://recipe-adventure.netlify.app/",
     stacks: [
       {
         name: "Html",

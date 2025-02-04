@@ -13,6 +13,7 @@ export { default as project4 } from "./project-4.png";
 export { default as project5 } from "./project-5.png";
 export { default as project6 } from "./project-6.jpg";
 export { default as project7 } from "./project-7.png";
+export { default as project8 } from "./project-8.png";
 
 //Icons export
 export { default as figma } from "./icons/figma.svg";
