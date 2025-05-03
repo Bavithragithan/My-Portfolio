@@ -50,7 +50,7 @@ const Navbar = () => {
           ))}
 
           <a
-            href="https://drive.google.com/file/d/1yRLpiqJFNT86ZPhXTdf3OcsB6GjlM2cO/view?usp=sharing"
+            href="https://drive.google.com/file/d/1WYM8jl0Ikzh5T8dbw3nXxKRgGz9MXuwJ/view?usp=sharing"
             className="btn flex__center hire__btn"
             target="_blank"
             onClick={() => setShowSidebar(false)}
@@ -65,7 +65,7 @@ const Navbar = () => {
 
       <div className="flex__container buttons__wrapper">
         <a
-          href="https://drive.google.com/file/d/1yRLpiqJFNT86ZPhXTdf3OcsB6GjlM2cO/view?usp=sharing"
+          href="https://drive.google.com/file/d/1WYM8jl0Ikzh5T8dbw3nXxKRgGz9MXuwJ/view?usp=sharing"
           className="btn flex__center hire__btn desktop-resume"
           target="_blank"
         >

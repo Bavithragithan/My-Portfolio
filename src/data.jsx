@@ -11,6 +11,7 @@ import {
   project6,
   project7,
   project8,
+  project9,
   profile3,
   profile4,
   profile5,
@@ -30,7 +31,8 @@ import {
   arduino,
   python,
   work,
-  school
+  school,
+  reactnative
 } from "./assets";
 
 export const menu = [
@@ -193,6 +195,20 @@ export const projects = [
       },
     ],
   },
+  {
+    title: "SK EDU Mobile Application",
+    image: project9,
+    category: "Mobile Application Development",
+    description: `SK EDU is a React Native mobile app that uses AI to help users learn their favorite courses and create custom courses with ease.`,
+    source: "https://github.com/Bavithragithan/SK-EDU-Mobile-App",
+    liveDemo: "https://drive.google.com/drive/folders/1Uze5as9f3CurTWz1X7g3tldlGYGVjrNe?usp=sharing",
+    stacks: [
+      {
+        name: "React Native",
+        logo: reactnative,
+      },
+    ],
+  },
 ];
 
 export const skills = [
@@ -253,6 +269,16 @@ export const skills = [
         skill: "Python",
         level: "Advanced",
         logo: python,
+      },
+    ],
+  },
+  {
+    title: "Mobile Application Development",
+    data: [
+      {
+        skill: "React Native",
+        level: "Beginner",
+        logo: reactnative,
       },
     ],
   },
@@ -363,7 +389,7 @@ export const experiences = [
     date: "2025 Jan - Present",
     title: "Intern Software Engineer",
     company: "Codearson PVT LTD",
-    description: "Working on a POS system as back-end and front-end",
+    description: "Working on a POS system as full stack",
     icon: work,
   },
 ];

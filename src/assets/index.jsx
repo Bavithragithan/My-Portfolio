@@ -14,6 +14,7 @@ export { default as project5 } from "./project-5.png";
 export { default as project6 } from "./project-6.jpg";
 export { default as project7 } from "./project-7.png";
 export { default as project8 } from "./project-8.png";
+export { default as project9 } from "./project-9.jpg";
 
 //Icons export
 export { default as figma } from "./icons/figma.svg";
@@ -30,6 +31,7 @@ export { default as csharp } from "./icons/csharp.svg";
 export { default as dbms } from "./icons/dbms.svg";
 export { default as arduino } from "./icons/arduino.svg";
 export { default as python } from "./icons/python.svg";
+export { default as reactnative } from "./icons/react-native.svg";
 
 export { default as work } from "./icons/work.svg";
 export { default as school } from "./icons/school.svg";
