@@ -31,6 +31,7 @@ export { default as csharp } from "./icons/csharp.svg";
 export { default as dbms } from "./icons/dbms.svg";
 export { default as arduino } from "./icons/arduino.svg";
 export { default as python } from "./icons/python.svg";
+export { default as node } from "./icons/node.svg";
 export { default as reactnative } from "./icons/react-native.svg";
 
 export { default as work } from "./icons/work.svg";

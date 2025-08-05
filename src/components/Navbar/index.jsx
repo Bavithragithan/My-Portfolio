@@ -9,6 +9,15 @@ import { useState } from "react";
 const Navbar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
 
+  const handleResumeDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/bavithragithan-cv.pdf';
+    link.download = 'bavithragithan-cv.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <nav className="card flex__center navbar">
       {showSidebar && (
@@ -49,31 +58,31 @@ const Navbar = () => {
             </Link>
           ))}
 
-          <a
-            href="https://drive.google.com/file/d/1WYM8jl0Ikzh5T8dbw3nXxKRgGz9MXuwJ/view?usp=sharing"
+          <button
             className="btn flex__center hire__btn"
-            target="_blank"
-            onClick={() => setShowSidebar(false)}
+            onClick={() => {
+              handleResumeDownload();
+              setShowSidebar(false);
+            }}
           >
             My Resume
             <div className="flex__center icon">
               <FaArrowUpRightFromSquare />
             </div>
-          </a>
+          </button>
         </div>
       </aside>
 
       <div className="flex__container buttons__wrapper">
-        <a
-          href="https://drive.google.com/file/d/1WYM8jl0Ikzh5T8dbw3nXxKRgGz9MXuwJ/view?usp=sharing"
+        <button
           className="btn flex__center hire__btn desktop-resume"
-          target="_blank"
+          onClick={handleResumeDownload}
         >
           My Resume
           <div className="flex__center icon">
             <FaArrowUpRightFromSquare />
           </div>
-        </a>
+        </button>
         <FaBarsStaggered
           className="menu"
           onClick={() => setShowSidebar(!showSidebar)}

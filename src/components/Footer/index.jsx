@@ -24,6 +24,7 @@ const Footer = () => {
         <div className="copyright">
           <h3>Copyright &copy; All rights reserved - | 2025</h3>
           <p className="text__muted">Developed by Bavithragithan Kuganesan</p>
+          <p className="text__muted">Last updated: 25/07/2025</p>
         </div>
         <div className="base__logo">
           {/* <h1 className="full__name shine">Kuganesan Bavithragithan</h1> */}

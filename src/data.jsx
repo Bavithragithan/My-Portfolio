@@ -30,6 +30,7 @@ import {
   dbms,
   arduino,
   python,
+  node,
   work,
   school,
   reactnative
@@ -40,7 +41,7 @@ export const menu = [
   { name: "Skill" },
   { name: "Experience" },
   { name: "Projects" },
-  { name: "Testimonial" },
+  // { name: "Testimonial" },
   { name: "Contact" },
 ];
 
@@ -241,7 +242,7 @@ export const skills = [
         logo: javascript,
       },
       {
-        skill: "React",
+        skill: "ReactJs",
         level: "Beginner",
         logo: react,
       },
@@ -259,6 +260,11 @@ export const skills = [
         skill: "Java",
         level: "Advanced",
         logo: java,
+      },
+      {
+        skill: "NodeJs",
+        level: "Beginner",
+        logo: node,
       },
       {
         skill: "C#",
@@ -381,15 +387,15 @@ export const experiences = [
     date: "2023 Mar - 2025 Jan",
     title: "BCAS Campus",
     company: "",
-    description: "Higher National Diploma in Software Engineering",
+    description: "Higher National Diploma in Software Engineering (Overall Destination)",
     icon: school,
   },
   {
     type: "work",
-    date: "2025 Jan - Present",
+    date: "2025 Jan - 2025 Jun",
     title: "Intern Software Engineer",
     company: "Codearson PVT LTD",
-    description: "Working on a POS system as full stack",
+    description: "Worked on a POS system and E-Commerce website as a full stack developer",
     icon: work,
   },
 ];

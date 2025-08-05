@@ -32,7 +32,7 @@ const Header = () => {
             <CodeBlock language={'javascript'} code={code} />
             <div>
               <p className="text__muted description">
-              I am an enthusiastic software engineering intern, dedicated to gaining hands-on experience and contributing to innovative projects while exploring emerging technologies.
+              I am an enthusiastic software engineering, dedicated to gaining hands-on experience and contributing to innovative projects while exploring emerging technologies.
               </p>
               <Facts />
               <SocialHandles />

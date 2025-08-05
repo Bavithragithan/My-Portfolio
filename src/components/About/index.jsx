@@ -31,8 +31,7 @@ const About = () => {
             I am <span className="color__primary">Bavithragithan Kuganesan</span>
           </h1>
           <p className="text__muted description">
-            I am a full-stack intern with a strong passion for software development and a deep interest in building impactful web applications. Currently, I am gaining hands-on experience in both front-end and back-end technologies, while working on various IoT and software projects. I enjoy learning new tools and frameworks, and I'm excited about the opportunity to apply my skills to solve real-world challenges. I am always eager to grow as a developer and contribute to meaningful projects.
-          </p>
+          Passionate and detail-oriented software engineer with experience in building POS systems, RESTful APIs, microservices, and responsive web applications. Skilled in Java, C#, Python, JavaScript, and Node.js, with a strong emphasis on writing clean, maintainable code and creating user-friendly solutions. Solid understanding of algorithms, data structures, object-oriented programming, and design patterns.          </p>
         </div>
       </div>
     </section>
